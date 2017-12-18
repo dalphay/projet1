@@ -1,84 +1,134 @@
 body {
-      font-family: 'uniformMedium';
-      margin: 0;
-      background-color: rgba(245, 247, 252, 0.966);
-     }
-
+   font-family: 'uniformMedium';
+   margin: 0;
+   background-color: rgba(245, 247, 252, 0.966);
+}
 header {
-        background: #08288b;
-        width: 100%;
-        box-sizing: contain;
-        height: 100px;
-       }
-
+   background-color: #08288b;
+   width: 100%;
+   box-sizing: contain;
+   height: 100px;
+}
 #header {
-         max-width: 1000px;
-         margin: auto;
-
-        }
-.white1 {
-           color: rgb(255, 250, 250);
-        }
-
+   max-width: 1000px;
+   margin: auto;
+}
 #menu1 >li >a {
-                background-color: rgba(212, 7, 7, 0.966);
-                margin: 1px auto;
-                width: 120px;
-                float: right;
-              }
+   background-color: rgba(212, 7, 7, 0.966);
+   margin: 1px auto;
+   width: 120px;
+   float: right;
+}
 h2.titre_h2 {
-             color: rgba(212, 7, 7, 0.966);
-            }
-ul.titre_h1 {
-              color: rgb(234, 237, 243)
-
-            }
+   color: rgba(24, 23, 23, 0.966);
+}
 .white {
-        display: inline ;
-        width: 130px;
-        padding-left: 1cm;
-        padding-right:  0,3em; 
-        text-decoration: none;
-        color: rgb(17, 1, 1);
-        font-weight: 0;
-        font-size: 150%;
-       }
+   display: inline ;
+   width: 130px;
+   padding-left: 1cm;
+   padding-right:  0,3em; 
+   text-decoration: none;
+   color: rgb(17, 1, 1);
+   font-weight: 0;
+   font-size: 130%;
+}
+.photo-gardiens {
+  margin-top: 25px;
+}
+.white a {
+  padding: 0px;
+  background-color: rgba(231, 29, 29, 0.966);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 46px;
+}
+.resa-red a {
+  display: flex;
+  align-content:  center;
+  font-size: 20px;
+  color: white;
+}
 .header {
-        font-family: "Arial", "Helvetica", sans-serif;
-        padding: left;
-        background-color: #0c0c0c;);
+   display: flex;
+   font-family: "Arial", "Helvetica", sans-serif;
+   padding: left;
+   background-color: #0c0c0c;
 }
 ul {
-    display: inline;
-    Color: bleu;
-    align-content: center; 
-   }
+   display: inline;
+   Color: bleu;
+   align-content: center; 
+   list-style: none;
+}
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-basis: 50%;  
+  color: white;
+  font-size: 18px;
+}
 div.logo {
-          background-image: url("img/ugc.png");
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 140px;
-          height: 20px;
-         }
-.baspage {
-          color: rgb(9, 103, 245);
-          display: inline;
-          list-style: none
-          padding-left: 36px;
-          padding-right: 36px; 
-        }
-#block-autopromo {
-          background: #08288b;
-          width: 100%;
-          height: 200px
-        }
-.iphone {
-        width: 100%;
-        height: 50px;
-}               
- footer {
-          background: rgb(5, 5, 5);
-          width: 100%;
-          height: 300px
-        }
+   display: flex;
+   justify-content: center;
+   background-image: url("img/logo-white.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 140px;
+   height: 70px;
+}
+.conteneur1 {
+   display: flex;
+   background-color: #08288b;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 100;
+   height: 10;
+}
+.contenaire-paragraph {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   color: #f8f9fc;
+   font-weight: bold;
+}
 
+.title {
+   display: flex;
+   justify-content: center;
+   color: #f8f9fc;
+   font-size: 20px;
+}
+.title-ugc {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   font-size: 20px;
+   color: #f8f9fc;
+}
+.blok-footer {
+   display: flex;
+   background-color: #1b1f24;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.conteneur-colonne {
+   display: flex;
+   list-style: none;
+}
+.block-footer-menu {
+        display: flex;
+        justify-content: space-around;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+}
+footer h3 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
