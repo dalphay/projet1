@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Document</title>
 </head>
 
@@ -14,14 +15,32 @@
     <div id="header">
       <div class="logo"></div>
     </div>
-    <div class="header-right">
-      <div>Recherche</div>
-      <div>Mes résas</div>
-      <div>Compte</div>
-      <div>Espace pro</div>
+    <div class="icon">
+      <i class="Recherche"></i>
+      <i class="Mes résas"></i>
+      <i class="Compte"></i>
+      <i class="Espace pros"></i>
+    </div>
+    <div class="nav-recherche">
+      <ul>
+        <li class="Recherche">
+          <a href="Recherche">Recherche</a>
+        </li>
+        <li class="Mes résas">
+          <a href="Mes résas">Mes résas</a>
+        </li>
+        <li class="Compte">
+          <a href="Compte">Compte</a>
+        </li>
+        <li class="Espace pro">
+          <a href="Espace pro">Espace pro</a>
+        </li>
+      </ul>
     </div>
   </header>
+  <div class="white"></div>
   <ul>
+    <li class="white">Cinémas</li>
     <li class="white">Films</li>
     <li class="white">Evènements</li>
     <li class="white">Offres et Cartes</li>
@@ -30,68 +49,89 @@
       <a href="#" class="Résa Express">Résa Express</a>
     </li>
   </ul>
-  <div class="photo-gardiens"></div><img src="img/mea.jpg" alt="mea.jpg "></div>
-  <h2 class="titre_h2">Nouveautés</h2>
-  <img src="img/gardiennes.jpg" alt="gardiennes.jpg ">
-  <img src="img/makala.jpg" alt="makala.jpg ">
-  <img src="img/suburbicon.jpg" alt="suburbicon.jpg ">
+  </di>
+  <div class="photo-gardiens"></div>
+  <img src="img/mea.jpg" alt="mea.jpg ">
+  </div>
+  <div class="new">
+    <h2 class="titre_h2">Nouveautés</h2>
+  </div>
+  <div class="image-middle">
+    <img src="img/gardiennes.jpg" alt="gardiennes.jpg ">
+    <img src="img/makala.jpg" alt="makala.jpg ">
+    <img src="img/suburbicon.jpg" alt="suburbicon.jpg ">
+  </div>
   <section>
-    <div class="conteneur1">
+    <div class="container">
       <img alt="UGC Illimité" class="autopromo-photo" src="https://www.ugc.fr/dynamique/images/homepage/mag-decemnrel.png">
-      <div class="element1"></div>
-      <span class="title">ILLIMITE</span>
-      <p class="contenaire-paragraph">Le magazine des cinémas UGC</p>
-      <a class="btn" href="http://fr.calameo.com/read/005246205d22cb14a739b" target="_blank">Lire le mag</a>
+      <div class="magaz">
+        <ul>
+          <li>
+            <span class="title">ILLIMITE</span>
+          </li>
+          <li>
+            <p class="contenaire-paragraph">Le magazine des cinémas UGC</p>
+          </li>
+          <li>
+            <a class="btn" href="http://fr.calameo.com/read/005246205d22cb14a739b" target="_blank">Lire le mag</a>
+          </li>
+        </ul>
+      </div>
       <div class="element2"></div>
-      <img src="img/phoneAppv2.png" alt="phoneApp_v2.png ">
-      <span class="title-ugc">UGC DIRECT</span>
-      <p class="contenaire-paragraph">L'appli mobile pour les cinéphiles!</p>
-      <div class="element3"></div>
-      <div class="element4"></div>
+      <img src="img/phoneAppv2.png" class="autopromo-photo" alt="phoneApp_v2.png ">
+      <div class="appli">
+        <ul>
+          <li>
+            <span class="title-ugc">UGC DIRECT</span>
+          </li>
+          <li></li>
+          <p class="contenaire-paragraph">L'appli mobile pour les cinéphiles!</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   <footer class="blok-footer">
     <div class="block-footer-menu">
       <div>
-        <h3>cinémas ugc</h3>
+        <h3>Cinémas ugc</h3>
         <ul>
           <li>
             <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 'Clic', 'Region cinema',	1, false, true, function(event) { location = 'cinemas.html?id=1'}	);	return false; } catch(e) { location = 'cinemas.html?id=1' };"
               target="_self"> Paris </a>
           </li>
           <li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=2'}	);	return false; } catch(e) { location = 'cinemas.html?id=2' };"
-                target="_self"> En région parisienne </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=3'}	);	return false; } catch(e) { location = 'cinemas.html?id=3' };"
-                target="_self"> Bordeaux </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=4'}	);	return false; } catch(e) { location = 'cinemas.html?id=4' };"
-                target="_self"> Caen </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=5'}	);	return false; } catch(e) { location = 'cinemas.html?id=5' };"
-                target="_self"> Lille </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=6'}	);	return false; } catch(e) { location = 'cinemas.html?id=6' };"
-                target="_self"> Lyon </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=7'}	);	return false; } catch(e) { location = 'cinemas.html?id=7' };"
-                target="_self"> Nancy </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=8'}	);	return false; } catch(e) { location = 'cinemas.html?id=8' };"
-                target="_self"> Nantes </a>
-            </li>
-            <li>
-              <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=10'}	);	return false; } catch(e) { location = 'cinemas.html?id=10' };"
-                target="_self"> Strasbourg </a>
-            </li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=2'}	);	return false; } catch(e) { location = 'cinemas.html?id=2' };"
+              target="_self"> En région parisienne </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=3'}	);	return false; } catch(e) { location = 'cinemas.html?id=3' };"
+              target="_self"> Bordeaux </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=4'}	);	return false; } catch(e) { location = 'cinemas.html?id=4' };"
+              target="_self"> Caen </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=5'}	);	return false; } catch(e) { location = 'cinemas.html?id=5' };"
+              target="_self"> Lille </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=6'}	);	return false; } catch(e) { location = 'cinemas.html?id=6' };"
+              target="_self"> Lyon </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=7'}	);	return false; } catch(e) { location = 'cinemas.html?id=7' };"
+              target="_self"> Nancy </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=8'}	);	return false; } catch(e) { location = 'cinemas.html?id=8' };"
+              target="_self"> Nantes </a>
+          </li>
+          <li>
+            <a href="#" class="gaClick gaClickProceeded" data-ga-name="desktop_footer_cinema" onclick="javascript:try { 	ga_trackEvent('Footer', 		'Clic', 		'Region cinema', 		1, 		false, 		true, 		function(event) { location = 'cinemas.html?id=10'}	);	return false; } catch(e) { location = 'cinemas.html?id=10' };"
+              target="_self"> Strasbourg </a>
+          </li>
         </ul>
       </div>
       <div class="bloc2">
