@@ -1,0 +1,9 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="icon">
+      <i class="Recherche"></i>
+      <i class="Mes résas"></i>
+      <i class="Compte"></i>
+      <i class="Espace pros"></i>
+    </div>
