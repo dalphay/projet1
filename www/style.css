@@ -29,7 +29,7 @@ h2.titre_h2 {
   justify-content: center;
   align-items: flex-start;
   margin-left: 10px;
-  margin-right: 170px;
+  margin-right: 174px;
   height: 520px;
 }
 .white {
@@ -43,7 +43,9 @@ h2.titre_h2 {
    font-size: 120%;
 }
 .photo-gardiens {
-  margin-top: 25px;
+  display: block;
+  align-items: center;
+  margin-top: 35px;
 }
 .white a {
   padding: 0px;
@@ -52,6 +54,7 @@ h2.titre_h2 {
   background-repeat: no-repeat;
   width: 130px;
   height: 46px;
+  margin: 40px;
 }
 .resa-red a {
   display: flex;
@@ -74,6 +77,7 @@ ul {
 a {
   color: white;
   text-decoration: none;
+  margin: 20px;
 }
 .nav-recherche > ul {
   display: flex;
@@ -82,9 +86,10 @@ a {
   align-items: center;
   color: white;
   font-size: 16px;
-  margin-right: 112px;
-  margin-left: 235px;
+  margin-right: 123px;
+  margin-left: 295px;
 }
+
 .icon {
   display: flex;
   flex-direction: row;
@@ -98,8 +103,8 @@ div.logo {
    background-image: url("img/logo-white.png");
    background-size: contain;
    background-repeat: no-repeat;
-   width: 476px;
-   height: 80px;
+   width: 270px;
+   height: 60px;
 }
 .container {
    display: flex;
@@ -168,11 +173,12 @@ div.logo {
 footer a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
 }
 footer h3 {
   color: #ffffff;
   text-decoration: none;
   font-size: 20px;
+  margin: 15px;
 }
 

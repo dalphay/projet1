@@ -1,0 +1,12 @@
+ <div class="icon">
+          <i class= "search-fa" aria-hidden="true"></i>
+          <i class="Mes résas-fa" aria-hidden="true"></i>
+          <i class="Compte-fa"  aria-hidden="true"></i>
+          <i class="fa fa-briefcase" aria-hidden="true"></i>
+        </div>
+
+        .navig-recherche {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
