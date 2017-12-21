@@ -89,6 +89,9 @@ a {
   margin-right: 123px;
   margin-left: 295px;
 }
+.icones p {
+  margin-right: 12px;
+}
 
 .icon {
   display: flex;
@@ -103,7 +106,7 @@ div.logo {
    background-image: url("img/logo-white.png");
    background-size: contain;
    background-repeat: no-repeat;
-   width: 270px;
+   width: 250px;
    height: 60px;
 }
 .container {
